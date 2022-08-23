@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="tailwind.css">
     <title>Tail Recipes</title>
 </head>
-<body class="text-yellow-600">
+<body class="text-gray-600 font-body">
     <header>
         <section>
-            <h2>Recipes</h2>
-            <h3>From Tailwind</h3>
+            <h2 class="text-gray-700 text-4xl font-semibold">Recipes</h2>
+            <h3 class="text-2xl font-semibold">From Tailwind</h3>
         </section>
-        <div>
+        <div class=" text-primary">
             <a href="#">Log In</a>
             <a href="#">Sign Up</a>
         </div>
@@ -21,11 +21,11 @@
     <main>
         <aside>
             <section>
-                <h1><a href="/">Tail Foods</a></h1>
+                <h1 class="font-bold uppercase p-4 border-b border-gray-100"><a href="/">Tail Foods</a></h1>
             </section>
             <nav>
                 <ul>
-                    <li><a href="#">
+                    <li class="font-bold"><a href="#">
                         <span>Home</span>
                     </a></li>
                     <li><a href="#">
@@ -37,24 +37,26 @@
                 </ul>
             </nav>
         </aside>
-        <section>
-            <h4>Latest Recipes</h4>
-            <!-- Card -->
-            <div>
-                <img src="./imgs/stew.jpg" alt="stew">
+        <section class="px-16 py-6">
+            <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">Latest Recipes</h4>
+            <div class="mt-8">
+                <!-- Card -->
                 <div>
-                    <span>5 Bean Chilli Stew</span>
-                    <span>by Italian Plumber</span>
+                    <img src="./imgs/stew.jpg" alt="stew">
+                    <div>
+                        <span>5 Bean Chilli Stew</span>
+                        <span>by Italian Plumber</span>
+                    </div>
                 </div>
             </div>
 
-            <h4>Popular Recipes</h4>
-            <!-- Card -->
-            <div>
+            <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">Popular Recipes</h4>
+            <div class="mt-8">
+                <!-- Card -->
             </div>
 
             <div>
-                <span>Load More</span>
+                <span class="inline-block bg-secondary-100 text-secondary-200">Load More</span>
             </div>
         </section>
     </main>
